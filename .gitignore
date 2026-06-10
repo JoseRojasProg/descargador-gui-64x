@@ -1,12 +1,13 @@
+# Excluir carpetas temporales y de entorno
 venv/
 __pycache__/
-.env
-.vscode/
 build/
-*.specvenv/
-__pycache__/
 .env
 .vscode/
+*.spec
+
+# Excluir archivos de prueba locales (los que no quieres subir)
 mainclaude.py
 maindeepseek.py
-*.spec
+
+# NOTA: NO incluimos 'dist/' aquí, por lo tanto Git SÍ lo subirá.
