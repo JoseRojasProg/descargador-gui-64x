@@ -2,6 +2,7 @@ venv/
 __pycache__/
 .env
 .vscode/
+build/
 *.specvenv/
 __pycache__/
 .env
